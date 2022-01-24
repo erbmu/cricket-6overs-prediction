@@ -138,5 +138,5 @@ def predictRuns(batting_team, bowling_team):
         temp_array = temp_array + [0,0,0,0,0,0,0,1]
     data = np.array([temp_array])
     my_prediction = int(lin_regressor.predict(data)[0])
-    return my_prediction
+    return my_prediction 
 
